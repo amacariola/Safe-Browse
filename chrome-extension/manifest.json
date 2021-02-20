@@ -1,0 +1,16 @@
+{
+    "manifest_version" : 2,
+
+    "name" : "Safe Browse Extension",
+    "description" : "A quick url check extension for Chrome, By Kuro",
+    "author" : "Kuro",
+    "version" : "1.0",
+    
+    "browser_action" : {
+        "default_icon" : "icon.png",
+        "default_popup" : "popup.html"
+    },
+    "permissions" : [
+        "activeTab"
+    ]
+}

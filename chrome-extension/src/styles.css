@@ -1,0 +1,36 @@
+  *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            width: 120px;
+            height: 130px;
+            align-items: center;
+            text-align: center;
+            background:rgba(26, 25, 25, 0.63);
+        }
+        h1
+        {
+            font-size: 1.7em;
+            font-weight: 500;
+            color: #ffff;
+        }
+        p
+        {
+            position: relative;
+            padding-top: 1%;
+            font-size: 1.2em;
+            font-style: normal;
+            color: #ffff;
+        }
+        button
+        {
+            color: #ffff;
+            padding: 3.5%;
+            background: rgb(243, 41, 41);
+            border-color:rgb(243, 41, 41);
+            border-style: none;
+        }

@@ -1,0 +1,99 @@
+<html>
+<html lang="en">
+
+<head>
+    <title>Safe Browse</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Safe Browsing using Google Safe Search API">
+    <meta charset="utf-8">
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--JAVASCRIPT-->
+    <script src="./js/main.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="index.html"><h1><span>S</span>afe <span>B</span>rowsing</h1></a>
+            </div>
+            <div class="nav-list">
+              <div class="slides"><div class="bar"></div></div>
+              <ul>
+                <li><a href="#home" data-after="Home">Home</a></li>
+                <li><a href="#info" data-after="Info">Info</a></li>
+                <li><a href="#search" data-after="Search">Search</a></li>
+                <li><a href="#api" data-after="API">For Developers</a></li>
+                <li><a href="https://developers.google.com/safe-browsing/v4" data-after="About">Google Safe Browsing</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+
+    </section>
+    <!--End of Header Section-->
+
+   <!--Home Section-->
+    <section id="home">
+        <div class="home container">
+          <div>
+            <h1>Detect<span></span></h1>
+            <h1>Malicious links in just a<span></span></h1>
+            <h1>Click<span></span></h1>
+            <a href="#search" type="button" class="cta">Protect Myself</a>
+          </div>
+        </div>
+    </section>
+    <!--End of Home section-->
+
+    <!--Info Section-->
+    <section id="info">
+        <div class="container info">
+          <h1>Youre a Potential<span> Target</span></h1>
+          <p>
+            Millions are being hacked everyday.<br>As the internet is
+            fastly growing,<br>so the threat of being your accounts<br>compromised.
+            <br><br>Social Media accounts, for example, can be hacked<br>
+            in just a few minutes.
+          </p>
+        </div>
+        <a href="https://www.fireeye.com/current-threats/annual-threat-report.html" type="button" class="btn-cta">View 2020 FireEye Report</a>
+    </section>
+    <!--SEARCH-->
+    <section id="search">
+      <div class="search container">
+        <h1>Check URL</h1>
+        <p id="status" class="status"></p>
+        <p>
+          This in-depth search will query the Google Safe Browsing<br>
+          API for possible malware or social engineering vectors.<br>
+          Returns if the URL is flagged safe or unsafe. Refer to<br>
+          Google Documentation.
+        </p>
+        <form>
+          <input type="text" class="input-box" id="#url" required>
+          <button type="button" id="Submit" value="submit" class="button-sub">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section id="api">
+      <img src="./img/NicePng_sim-png_2561011.png" alt="img" class="img" >
+      <div class="api container">
+        <h1>Integration to your Apps</h1>
+        <p>
+          Safe Browsing Threat URL API can be integrated<br>
+          on your app, Check the Github documentation on<br>
+          how to integrate our API to your app.<br><br>
+          Safe Browsing comes into a Chrome Extension and <br>
+          CLI client for security researchers
+        </p>  
+      </div>
+      <a href="#" type="button" class="btn-cta1">View Documentation</a><br>
+    </section>
+</body>
+<script src="./js/app.js" defer></script>
+</html> 
